@@ -1,0 +1,207 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	vertical-align:middle;
+}
+
+body{
+	background-image: linear-gradient(rgba(36, 34, 34, 0.8), rgba(141, 141, 141, 0.3));
+	background-attachment:fixed;
+	background-size:100%;
+	background-repeat:no-repeat;
+	font-family: arial;
+	font-family: "Lato", sans-serif;
+}
+
+		.areaPesquisa {
+			padding: 10px;
+			width: 40%;
+			margin:30px  auto  ;
+			justify-content: center;
+		}
+		
+		
+		input{
+			padding 10px;
+			margin 8px 0;
+			border 1px solid #000;
+			border-radius: 4px;
+		}
+		label{
+			padding-top: 7px;
+    padding: 10px;
+  
+		}
+		.label:after {
+			content: ':';
+			padding-right: 5px;
+		}
+		input[type=text]{
+			width: 40%;
+    		padding-left: 5px;
+    		box-sizing: border-box;
+		}
+
+		
+		input[type=submit] {
+			background-color: rgb(50,172,218);
+			border:none;
+			cursor: pointer;
+			color:white;
+			border : 0;
+			text-shadow:2px 2px 2px rgba(0, 0, 0, 0.5);
+			border-radius: 0.Sen;
+			box-shadow: 2px 2px 0 1px rgb(99,128,229);
+			transition: box-shadow 0.3s ease, transform 0.3s ease;
+			width: 30%;
+			
+		}
+		[type=submit]:active {
+			box-shadow: 0 0 0 0 rgb(50,52,248), inset 3px 3px 3px rgb(99,128,229);
+			transform: translate(3px 3px);
+			
+			
+		}
+
+		input[type=button]{
+			width: 20%;
+			background-color: #1874CD;
+			color: #FFF;
+			cursor: pointer;
+		}
+	
+		
+		table{
+			border-collapse: collapse;
+			width: 100%;
+			margin-top: 0px;
+		}
+		
+		table th{
+			background-color: rgba(36, 161, 206, 0.966);
+			color: #000;
+			height: 30px;
+		}
+
+div#corpo-form{
+	width: 30%;
+	margin:50px  3% 0px 20px ;
+}
+
+div#corpo-tab{
+	background-color: rgba(114, 109, 109, 0.781);
+	width: 45%;
+	margin:30px auto ;
+	line-height: 1.8;
+}
+
+div#corpo-form-cad{
+	width: 95%;
+	margin:10px auto;
+	text-align: center;
+}
+
+div#corpo-form ,div#corpo-form-cad h1{
+	text-align: center;
+	padding: 0px;
+}
+
+
+a{
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit] {
+	background-color: rgb(50,172,218);
+	border:none;
+	cursor: pointer;
+	color:black;
+
+}
+input[type=button] {
+	background-color: rgb(50,172,218);
+	border:none;
+	cursor: pointer;
+	color:black;
+}
+
+::webkit-input-placeholder{
+	color: #fff;
+	text-transform: capitalize; 
+}
+
+::moz-placeholder{
+	color: #fff;
+	text-transform: capitalize; 
+}
+
+div#msg-sucesso{
+	width: 400px;
+	margin:10px auto 0px auto;
+	padding: 10px;
+	background-color: rgba(50,205,50,.8);
+	border: 1px solid rgb(34,139,34);
+
+}
+
+div.msg-erro{
+	
+	width: 400px;
+	margin:10px auto 0px auto;
+	padding: 10px;
+	background-color: rgba(242,23,29,.8);
+	border: 1px solid rgb(165,42,42);
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+div#botao {
+	width: 80%;
+	height: 90%;
+	margin:20px  auto  ;
+	justify-content: center;
+}
